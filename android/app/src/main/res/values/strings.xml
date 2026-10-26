@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">存崽记账</string>
+    <string name="title_activity_main">存崽记账</string>
+    <string name="package_name">com.cunzai.accounting</string>
+    <string name="custom_url_scheme">com.cunzai.accounting</string>
+</resources>

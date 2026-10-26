@@ -1,0 +1,11 @@
+.git
+.gitignore
+Dockerfile
+docker-compose.yml
+compose.yaml
+node_modules
+android
+www
+dist
+build
+*.zip

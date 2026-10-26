@@ -1,0 +1,19 @@
+{
+  "name": "存崽记账",
+  "short_name": "存崽",
+  "description": "宠物陪伴式记账 APP",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF6EA",
+  "theme_color": "#F2B33D",
+  "icons": [
+    {
+      "src": "/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

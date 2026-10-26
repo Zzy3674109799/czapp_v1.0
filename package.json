@@ -1,0 +1,21 @@
+{
+  "name": "cunzai-accounting",
+  "version": "0.1.0",
+  "private": true,
+  "description": "存崽记账 APP",
+  "scripts": {
+    "prepare:app": "node scripts/prepare-capacitor.mjs",
+    "dev:lan": "npm run prepare:app && node scripts/dev-server.mjs",
+    "cap:sync": "npm run prepare:app && cap sync android",
+    "android:open": "cap open android",
+    "android:build": "npm run cap:sync && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@babel/standalone": "7.29.0",
+    "@capacitor/android": "^7.4.4",
+    "@capacitor/cli": "^7.4.4",
+    "@capacitor/core": "^7.4.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
